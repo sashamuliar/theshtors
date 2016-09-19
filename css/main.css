@@ -1,0 +1,59 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, p, ul, li, a, header, footer {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.page_wrapper{
+	width: 100%;
+	height: 100%;
+}
+/*------header-----*/
+
+
+header{
+	padding: 22px 0;
+}
+
+
+
+/*-------header-end------*/
+
+
+
+footer{
+	background: #eee;
+}
+
+
+.m-right{
+	margin-right: 15px;
+}
+.m-left{
+	margin-left: 15px;
+}
+.p-right{
+	padding-right: 15px;
+}
+.p-left{
+	padding-left: 15px;
+}
+
+.clear{clear:both;}
+.raw .col-1 	{ width: 8.333333333%; }
+.raw .col-2 	{ width: 16.666666666%; }
+.raw .col-3 	{ width: 25%; }
+.raw .col-4   { width: 33.333333333%; }
+.raw .col-5 	{ width: 41.666666667%; }
+.raw .col-6 	{ width: 50%; }
+.raw .col-7 	{ width: 58.333333333%; }
+.raw .col-8 	{ width: 66.666666667%; }
+.raw .col-9 	{ width: 75%; }
+.raw .col-10  { width: 83.333333333%; }
+.raw .col-11  { width: 91.666666667%;}
+.raw .col-12  { width: 100%; }
