@@ -6,22 +6,89 @@
 body, p, ul, li, a, header, footer {
 	margin: 0;
 	padding: 0;
+}
+html{
 	height: 100%;
 }
-
+body{
+	font-family: sans-serif;
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
 .page_wrapper{
 	width: 100%;
 	height: 100%;
+	background:url('../images/room2.jpg')no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 /*------header-----*/
 
 
 header{
-	padding: 22px 0;
+	padding: 22px 0px;
 }
-
-
-
+.logo{
+	margin-right: 35px;
+}
+.logo a{
+	color: #ec7a5c;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-size: 1.35em;
+	display: block;
+}
+.tools ul li{
+	float: left;
+	margin-right: 10px;
+}
+.tools ul li a{
+	color: #fff;
+	display: block;
+	width: 22px;
+	height: 20px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+.wish{
+	background: url('../icons/favorite.svg');
+}
+.cart{
+	background:url('../icons/cart.svg');
+}
+.search{
+	background: url('../icons/loupe.svg');
+	
+}
+.menu-men-container{
+	float: left;
+}
+.menu-men-container ul li{
+	float: left;
+	margin-right: 10px;
+}
+.menu-men-container ul li a{
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	padding: 10px 15px;
+	font-size: 0.85em;
+	font-weight: 600;
+}
+h1{
+	max-width: 800px;
+	margin: 250px auto;
+	color: #fff;
+	text-align: center;
+	font-size: 4.5em;
+}
 /*-------header-end------*/
 
 
@@ -29,7 +96,6 @@ header{
 footer{
 	background: #eee;
 }
-
 
 .m-right{
 	margin-right: 15px;
@@ -43,17 +109,24 @@ footer{
 .p-left{
 	padding-left: 15px;
 }
+.f-left{
+	float:left;
+}
+.f-right{
+	float: right;
+}
 
 .clear{clear:both;}
-.raw .col-1 	{ width: 8.333333333%; }
-.raw .col-2 	{ width: 16.666666666%; }
-.raw .col-3 	{ width: 25%; }
-.raw .col-4   { width: 33.333333333%; }
-.raw .col-5 	{ width: 41.666666667%; }
-.raw .col-6 	{ width: 50%; }
-.raw .col-7 	{ width: 58.333333333%; }
-.raw .col-8 	{ width: 66.666666667%; }
-.raw .col-9 	{ width: 75%; }
-.raw .col-10  { width: 83.333333333%; }
-.raw .col-11  { width: 91.666666667%;}
-.raw .col-12  { width: 100%; }
+.row{padding:0 50px;}
+.row .col-1 	{ width: 8.333333333%; }
+.row .col-2 	{ width: 16.666666666%; }
+.row .col-3 	{ width: 25%; }
+.row .col-4   { width: 33.333333333%; }
+.row .col-5 	{ width: 41.666666667%; }
+.row .col-6 	{ width: 50%; }
+.row .col-7 	{ width: 58.333333333%; }
+.row .col-8 	{ width: 66.666666667%; }
+.row .col-9 	{ width: 75%; }
+.row .col-10  { width: 83.333333333%; }
+.row .col-11  { width: 91.666666667%;}
+.row .col-12  { width: 100%; }
