@@ -11,6 +11,6 @@
 				<?php wp_footer(); ?>
 			</div>
 		</footer>
-	</section>
+	</div>
 </body>
 </html>
