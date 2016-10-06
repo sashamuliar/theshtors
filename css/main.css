@@ -29,7 +29,10 @@ a{
     background-size: cover;
 }
 /*------header-----*/
-
+.header-wrapper{
+	position: absolute;
+	width: 100%;
+}
 
 header{
 	padding: 22px 0px;
@@ -89,8 +92,13 @@ header{
 /*-------contennt--------*/
 .main-title-wrap{
 	display: flex;
-	align-items: ;
+	justify-content: center;
 	flex-direction: column;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+.wrap-buffer{
+	
 }
 h1{
 	max-width: 800px;
@@ -98,6 +106,7 @@ h1{
 	color: #fff;
 	text-align: center;
 	font-size: 4.5em;
+	letter-spacing: -2px;
 }
 /*--------content-end------*/
 footer{

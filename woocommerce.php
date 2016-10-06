@@ -31,16 +31,33 @@
 		<!-- content part-->
 		<div class="content">
 			<div class="row">
-				<div class="main-title-wrap">
-				
-					<?php woocommerce_content(); ?>
+				<div class="col-12">
+					<div id="mainTitle">
+						
+					</div>
 				</div>
+				<div class="col-2 f-left">
+					<aside>
+						<ul>
+			  				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : endif; ?>
+						</ul>
+					</aside>
+				</div>	
+				<div class="col-10 f-left">
+					<div class="main-title-wrap">
+						<?php woocommerce_content(); ?>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+					
+
 			</div>
 
 
-			<ul>
-			  <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : endif; ?>
-			</ul>
+			
+
+			<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
 		</div>
 		<!-- content part - end -->		
 		<?php get_footer(); ?>

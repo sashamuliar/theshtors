@@ -23,7 +23,8 @@ if ( function_exists('register_sidebar') ) {
     'before_title' => '<span class="widgettitle">',
     'after_title' => '</span>',
   ));
-}
+};
+
 
 
  ?>
